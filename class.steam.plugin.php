@@ -5,7 +5,7 @@ $PluginInfo['SteamSignIn'] = array(
 	'Name' => 'Steam Sign In',
    'Description' => 'Allows users to sign in with their Steam accounts. Requires &lsquo;OpenID&rsquo; plugin to be enabled first.',
    'Version' => '1.2',
-   'RequiredApplications' => array('Vanilla' => '2.1a'),
+   'RequiredApplications' => array('Vanilla' => '2.0.14'),
    'RequiredPlugins' => array('OpenID' => '0.2'),
    'RequiredTheme' => FALSE,
 	'MobileFriendly' => TRUE,
