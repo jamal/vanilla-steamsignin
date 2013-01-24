@@ -1,20 +1,12 @@
 <?php if (!defined('APPLICATION')) exit();
-/*
-Copyright 2008, 2009 Vanilla Forums Inc.
-This file is part of Garden.
-Garden is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-Garden is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-You should have received a copy of the GNU General Public License along with Garden.  If not, see <http://www.gnu.org/licenses/>.
-Contact Vanilla Forums Inc. at support [at] vanillaforums [dot] com
-*/
 
 // Define the plugin:
 $PluginInfo['SteamSignIn'] = array(
 	'Name' => 'Steam Sign In',
-   'Description' => 'This plugin allows users to sign in with their Steam accounts. <b>Make sure you click Settings after enabling this plugin to enable Steam signin</b>.',
-   'Version' => '1.1',
-   'RequiredApplications' => array('Vanilla' => '2.0.14'),
-   'RequiredPlugins' => array('OpenID' => '0.1a'),
+   'Description' => 'Allows users to sign in with their Steam accounts. Requires &lsquo;OpenID&rsquo; plugin to be enabled first.',
+   'Version' => '1.2',
+   'RequiredApplications' => array('Vanilla' => '2.1a'),
+   'RequiredPlugins' => array('OpenID' => '0.2'),
    'RequiredTheme' => FALSE,
 	'MobileFriendly' => TRUE,
    'SettingsUrl' => '/dashboard/plugin/steamsignin',
